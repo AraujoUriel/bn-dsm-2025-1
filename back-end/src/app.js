@@ -17,6 +17,9 @@ app.use('/users', usersRouter)
 
 /****************** ROTAS INSANAS ********************/
 import categoriasRouter from './routes/categorias.js'
+import fornecedoresRouter from './routes/fornecedores.js'
+
 app.use('/categorias', categoriasRouter)
+app.use('/fornecedores', fornecedoresRouter)
 
 export default app
